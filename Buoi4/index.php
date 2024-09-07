@@ -145,10 +145,10 @@
                     <span class="form-btn-title">Pay For</span>
                     <div class="form-btn-select">
                         <label><input name="category[]" type="checkbox" value="15" <?php echo in_array("15 ", $categories) ? 'checked' : ''; ?>>15k Category</label>
-                        <label><input name="category[]" type="checkbox" value="35" <?php echo in_array("35", $categories) ? 'checked' : ''; ?>>35k Category</label>
-                        <label><input name="category[]" type="checkbox" value="55" <?php echo in_array("55", $categories) ? 'checked' : ''; ?>>55k Category</label>
-                        <label><input name="category[]" type="checkbox" value="75" <?php echo in_array("75", $categories) ? 'checked' : ''; ?>>75k Category</label>
-                        <label><input name="category[]" type="checkbox" value="115" <?php echo in_array("115", $categories) ? 'checked' : ''; ?>>115k Category</label>
+                        <label><input name="category[]" type="checkbox" value="35" <?php echo in_array("35", $categories) ? 'checked' : ''; ?>>25k Category</label>
+                        <label><input name="category[]" type="checkbox" value="55" <?php echo in_array("55", $categories) ? 'checked' : ''; ?>>35k Category</label>
+                        <label><input name="category[]" type="checkbox" value="75" <?php echo in_array("75", $categories) ? 'checked' : ''; ?>>55k Category</label>
+                        <label><input name="category[]" type="checkbox" value="115" <?php echo in_array("115", $categories) ? 'checked' : ''; ?>>105k Category</label>
                         <label><input name="category[]" type="checkbox" value="135" <?php echo in_array("135", $categories) ? 'checked' : ''; ?>>135k Category</label>
                         <label><input name="category[]" type="checkbox" value="other" <?php echo in_array("other", $categories) ? 'checked' : ''; ?>>Other</label>
                         <label><input name="category[]" type="checkbox" value="train" <?php echo in_array("train", $categories) ? 'checked' : ''; ?>>Training Cap</label>
